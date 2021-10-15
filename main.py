@@ -45,5 +45,4 @@ for port in range(start_port, end_port + 1):
 end_time = datetime.now()
 finish = end_time - start_time
 
-print("all done")
 print(f"Scan completed in {finish}.")
