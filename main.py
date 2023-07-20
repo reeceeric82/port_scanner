@@ -18,7 +18,7 @@ def scan(port):
     sock.close()
 
 
-usage = "python3 main.py TARGET START_PORT ENDPORT"
+usage = "python3 main.py TARGET | START_PORT | END_PORT"
 
 if (len(sys.argv) != 4):
     print(usage)
